@@ -1,0 +1,37 @@
+.logo {
+    size: 106px 32px;
+    display: inline-block;
+    float: left;
+}
+.search {
+    size: 18px 18px;
+    position: relative;
+    top: -1px;
+    margin-right: 11px;
+}
+.header {
+    margin: 40px 0px;
+    &__menu {
+        display: inline-block;
+    }
+    &__menu li {
+        display: inline-block;
+        margin: 0px 11px;
+    }
+    &__menu li a {
+        color: rgba(0, 0, 0, 0.6);
+        font-family: Gilroy;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    &__search {
+        float: right;
+        color: #496ADC;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    &__tsearch {
+        position: relative;
+        right: 6px;
+    }
+}
