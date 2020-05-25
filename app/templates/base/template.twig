@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang = "ru" >
+<head >
+    {% include "./meta.twig" %}
+
+    {% include "./assets.twig" %}
+
+    <title >{{ page_ttl }}</title >
+</head >
+<body >
+        {% include "../modules/header.twig" %}
+
+    <main class = "page-content" >
+        {% block content %}
+        {% endblock content %}
+    </main >
+
+        {% include "../modules/footer.twig" %}
+</div >
+</body >
+</html >
