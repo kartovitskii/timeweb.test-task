@@ -1,0 +1,36 @@
+.blue-button {
+    background: #496ADC;
+    border-radius: 8px;
+    padding: 20px 28px;
+    color: #fff;
+    width: fit-content;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 8px;
+    margin-left: 8px;
+    transition: .3s ease-in-out;
+    white-space: nowrap;
+}
+.blue-button:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.08);
+    color: #496ADC;
+}
+.white-button {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.08);
+    color: #496ADC;
+    border-radius: 8px;
+    padding: 20px 28px;
+    width: fit-content;
+    font-weight: 600;
+    display: inline-block;
+    margin: 0px 8px;
+    transition: .3s ease-in-out;
+    white-space: nowrap;
+}
+.white-button:hover {
+    box-shadow: none;
+    color: #fff;
+    background: #496ADC;
+}

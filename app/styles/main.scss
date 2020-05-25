@@ -1,11 +1,15 @@
 @import "utils/vars";
 
 @import "modules/header";
+@import "modules/buttons";
+@import "pages/index";
 
 @import "plugins/bootstrap/bootstrap.min";
 
 $fontDir: '../fonts/';
-
+body {
+    font-family: 'Gilroy';
+}
 @font-face {
     font-family: 'Gilroy';
     src: url($fontDir + '/Gilroy-ExtraBold.eot');
@@ -225,4 +229,3 @@ $fontDir: '../fonts/';
     font-weight: 900;
     font-style: normal;
 }
-

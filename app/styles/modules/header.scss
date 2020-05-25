@@ -2,25 +2,30 @@
     size: 106px 32px;
     display: inline-block;
     float: left;
+    &__pos {
+      margin-top: 37px;
+      position: relative;
+      left: 2px;
+    }
 }
 .search {
     size: 18px 18px;
     position: relative;
     top: -1px;
-    margin-right: 11px;
+    margin-right: 7px;
 }
 .header {
-    margin: 40px 0px;
+    height: 104px;
+    line-height: 104px;
     &__menu {
         display: inline-block;
     }
     &__menu li {
         display: inline-block;
-        margin: 0px 11px;
+        margin: 0px 12px;
     }
     &__menu li a {
         color: rgba(0, 0, 0, 0.6);
-        font-family: Gilroy;
         font-weight: 500;
         font-size: 18px;
     }
@@ -31,7 +36,6 @@
         font-size: 18px;
     }
     &__tsearch {
-        position: relative;
-        right: 6px;
+  
     }
 }
