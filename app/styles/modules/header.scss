@@ -1,41 +1,36 @@
-.logo {
-    size: 106px 32px;
-    display: inline-block;
-    float: left;
-    &__pos {
-      margin-top: 37px;
-      position: relative;
-      left: 2px;
-    }
-}
-.search {
-    size: 18px 18px;
-    position: relative;
-    top: -1px;
-    margin-right: 7px;
-}
 .header {
     height: 104px;
+    max-width: 1136px;
     line-height: 104px;
-    &__menu {
-        display: inline-block;
+    &__menu a {
+        font-weight: 500;  
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.6);
     }
     &__menu li {
         display: inline-block;
-        margin: 0px 12px;
+        margin: 0px 10px;
     }
-    &__menu li a {
-        color: rgba(0, 0, 0, 0.6);
-        font-weight: 500;
-        font-size: 18px;
+    &__menu li:first-child {
+        margin-left: 0px;
     }
-    &__search {
-        float: right;
-        color: #496ADC;
-        font-weight: 600;
-        font-size: 18px;
+    &__menu li:last-child {
+        margin-right: 0px;
     }
-    &__tsearch {
-  
+}
+
+.logo {
+    size: 106px 32px;
+    display: inline-block;
+}
+.search {
+    text-align: right;
+    font-weight: 600;
+    font-size: 18px;
+    &__icon {
+        size: 18px 18px;
+        position: relative;
+        top: -1px;
+        right: 5px;
     }
 }

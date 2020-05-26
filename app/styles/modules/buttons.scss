@@ -6,10 +6,10 @@
     width: fit-content;
     font-weight: 600;
     display: inline-block;
-    margin-right: 8px;
-    margin-left: 8px;
+    margin-right: 16px;
     transition: .3s ease-in-out;
     white-space: nowrap;
+    font-size: 18px;
 }
 .blue-button:hover {
     background: #FFFFFF;
@@ -23,9 +23,9 @@
     border-radius: 8px;
     padding: 20px 28px;
     width: fit-content;
+    font-size: 18px;
     font-weight: 600;
     display: inline-block;
-    margin: 0px 8px;
     transition: .3s ease-in-out;
     white-space: nowrap;
 }

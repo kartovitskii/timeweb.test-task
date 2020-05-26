@@ -2,16 +2,72 @@
     font-weight: 600;
     font-size: 48px;
     max-width: 680px;
-    line-height: 53px;
+    line-height: 51px;
     &__one {
         margin-top: 80px;
     }
 }
 .subline {
-    margin-top: 24px;
+    margin-top: 27px;
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
     color: rgba(0, 0, 0, 0.6);
     max-width: 680px;
+}
+
+.btn-one { 
+    width: 459px;
+    padding-left: 2px;
+    margin-top: 42px;
+}
+
+.photo-grid {
+    width: 240px;
+    margin: 0px 8px;
+    &__elem1 {
+        width: 240px;
+        height: 180px;
+        border-radius: 16px;
+        background: #000;
+        margin-top: 75px;
+        background-size: cover;
+    }
+    &__elem2 {
+        width: 240px;
+        height: 180px;
+        border-radius: 16px;
+        background: #000;
+        margin-bottom: 16px;
+        background-size: cover;
+    }
+    &__elem3 {
+        width: 240px;
+        height: 307px;
+        border-radius: 16px;
+        background: #000;
+        margin-top: 42px;
+        background-size: cover;
+    }
+}
+
+.ph-grid-cnt {
+    width: 1776px;
+  //  margin: 0 auto;
+    position: relative;
+    left: calc(50% - 888px);
+
+}
+.ph-parent-grid-cnt {
+    height: 236px;
+    overflow: hidden;
+    margin-top: 89px;
+}
+
+@media (min-width: 1776px) {
+    .ph-grid-cnt {
+     margin: 0 auto;
+    position: inherit;
+    left: 0;
+    }
 }
