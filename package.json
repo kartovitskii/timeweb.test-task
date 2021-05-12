@@ -56,7 +56,7 @@
   "dependencies": {
     "@brightleaf/animate.scss": "^3.7.1",
     "jquery": "^3.5.0",
-    "swiper": "^5.4.0",
+    "swiper": "^6.5.1",
     "vue": "^2.6.10",
     "wow.js": "^1.2.2"
   },
